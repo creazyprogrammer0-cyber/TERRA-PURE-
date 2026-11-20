@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-canvas: #F9F8F4;
+  --color-surface: #FFFFFF;
+  --color-surface-low: #F4F4F0;
+  --color-hairline: #E2DFD7;
+  --color-forest: #1B4332;
+  --color-forest-deep: #012D1D;
+  --color-soil: #161A17;
+  --color-charcoal: #1E201E;
+  --color-sage: #525B54;
+  --color-terracotta: #C86D51;
+  --color-terracotta-dark: #97472E;
+  --color-canopy: #2D6A4F;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #F9F8F4;
+    color: #1E201E;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+  }
+}
+
+.ambient-popover-shadow {
+  box-shadow: 0 8px 24px -4px rgba(22, 26, 23, 0.05), 0 2px 6px -1px rgba(22, 26, 23, 0.03);
+}
+
+.terra-focus:focus-visible {
+  outline: 1px solid #1B4332;
+  box-shadow: 0 0 0 3px rgba(27, 67, 50, 0.12);
+}
+

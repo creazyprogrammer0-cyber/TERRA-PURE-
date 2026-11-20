@@ -1,0 +1,6 @@
+{
+  "name": "Terra Pure — Verified Botanical & Agro-Processing Supply",
+  "description": "Enterprise-to-consumer botanical provenance platform combining editorial organic luxury with laboratory-certified agro-processing transparency.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
